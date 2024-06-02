@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Form</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+
+    <body>
+        <header class="header">
+            <h1>Welcome to My Website</h1>
+        </header>
+        
+        <main>
+            <!-- This will have the About Me and form part -->
+            <div>
+                <h2>About Me</h2>
+                <p>I am Dhruv Satasiya and I am from India. 
+                   I have done my B.Tech in Electronics and Communication<br>
+                   Engineering.
+                   <span style="color: red">I love C Programming and HTML.</span>
+                </p>
+            </div>
+            <div>
+                <h2>Contact Me</h2>
+                <form>
+                    <div class="form">
+                        <label for="fname">Name:</label>  <!--Label-->
+                        <input type="text" id="fname" name="fname" placeholder="Dhruv Satasiya">
+                    </div>
+                    <div class="form">
+                        <label for="email">Email:</label>  <!--Label-->
+                        <input type="email" id="email" name="email" placeholder="abc@xyz.com">
+                    </div>
+                    <div class="form">
+                        <label for="age">Age:</label>     <!--Label-->
+                        <input type="number" id="age" name="age" placeholder="1-999" min="1" max="999">
+                    </div>
+                    <div class="form">
+                        <label for="reason">Reason for Contact</label> <!--Label-->
+                        <select name="reason" id="reason"> 
+                            <option value="Question">Question</option>
+                            <option value="Question2">Question2</option>
+                        </select>
+                    </div>
+                    <div class="from">
+                        <button type="submit">submit</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+
+        <footer>
+            <!-- This will have a copyright notice -->
+            <p>&copy; Dhruv Satasiya. All rights reserved.</p>
+        </footer>
+
+    </body>
+
+</html>
